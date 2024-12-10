@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net --env-file --allow-env main.ts",
+    "serve": "deno serve --env-file --allow-net --allow-env main.ts"
+  },
+  "imports": {
+    "@enhance/ssr": "jsr:@enhance/ssr@^3.5.2",
+    "@hono/hono": "jsr:@hono/hono@^4.6.13",
+    "pocketbase": "npm:pocketbase@^0.22.1"
+  }
+}
