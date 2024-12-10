@@ -1,4 +1,4 @@
-# Project Name
+# Wordle Feud API
 
 A web application built with Deno, Hono, and PocketBase.
 
